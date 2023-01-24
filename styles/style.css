@@ -5,6 +5,7 @@
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     height: 550px;
+    max-width: 100%;
 }
 .legal-heading-font{
     font-family: 'EB Garamond', serif;
