@@ -294,10 +294,12 @@
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body legal-paragraph-font">
-                                        Safety First! Always obey the rules of the road. Obey all traffic signals,
-                                        signs,
-                                        and laws. Get in the mindset of “driving” your bike—not just “riding” your bike.
-                                        This will help you be a more focused and legally compliant bike rider.
+                                        The CSS box model is just like an actual box which contains some HTML elements.
+                                        Those are margins, borders, padding, and content.
+                                        Working process: This box contains the content. It has text images. Padding is
+                                        used to clear the area around the content. The next is the border. This is
+                                        wrapped whole which is inside. Last is the margin. It helps to take the gap from
+                                        other elements.
                                     </div>
                                 </div>
                             </div>
@@ -325,7 +327,7 @@
                 <div class="col text-center">
                     <img class="w-75" src="images/faq.png" alt="">
                 </div>
-                
+
             </div>
         </section>
         <!-- contact  -->
@@ -334,49 +336,56 @@
             <p class="legal-paragraph-font text-center fw-light mt-4">There are many variations of passages of Lorem
                 Ipsum available, but the majority have<br>suffered alteration in some form, by injected humour.</p>
         </section>
-        <!-- form  -->
-        <section class="container-lg my-5 d-flex align-items-center gap-5">
+        <!--contact form  -->
+        <section class="container-lg my-5 d-flex flex-column flex-md-row align-items-center gap-5">
             <!-- contact box  -->
-            <div class="row gy-1">
-                <div class="col-6 bg-light rounded-2">
+            <div class="row w-100">
+                <div class="col-6 bg-light rounded-2 text-center py-4 px-2 border-bottom border-end">
                     <img class="img-fluid" src="images/location.png" alt="">
-                    <h4 class="legal-heading-font fw-bold">Address</h4>
+                    <h4 class="legal-heading-font fw-bold my-3">Address</h4>
                     <p class="legal-paragraph-font">A108 Adam Street, <br>
                         New York, NY 535022</p>
                 </div>
-                <div class="col-6 bg-light rounded-2">
+                <div class="col-6 bg-light rounded-2 text-center py-4 px-2 border-bottom">
                     <img class="img-fluid" src="images/call.png" alt="">
-                    <h4 class="legal-heading-font fw-bold">Call us</h4>
+                    <h4 class="legal-heading-font fw-bold my-3">Call us</h4>
                     <p class="legal-paragraph-font">+88 01750 00 00 00 <br>
                         +88 01750 00 00 00</p>
                 </div>
-                <div class="col-6 bg-light rounded-2">
+                <div class="col-6 bg-light rounded-2 text-center py-4 px-2 border-end">
                     <img class="img-fluid" src="images/email.png" alt="">
-                    <h4 class="legal-heading-font fw-bold">Email Us</h4>
+                    <h4 class="legal-heading-font fw-bold my-3">Email Us</h4>
                     <p class="legal-paragraph-font">info@gmail.com <br>
-                        info@gmail.com</p>                    
+                        info@gmail.com</p>
                 </div>
-                <div class="col-6 bg-light rounded-2">
+                <div class="col-6 bg-light rounded-2 text-center py-4 px-2">
                     <img class="img-fluid" src="images/time.png" alt="">
-                    <h4 class="legal-heading-font fw-bold">Working Hours</h4>
+                    <h4 class="legal-heading-font fw-bold my-3">Working Hours</h4>
                     <p class="legal-paragraph-font">Mon-Fri: 9AM to 5PM <br>
                         Sunday: 9AM to 1 PM</p>
                 </div>
             </div>
             <!-- contact form  -->
-            <div class="w-50">
+            <div class="w-100">
                 <form action="" class="">
                     <div class="">
-                        <input type="text" class="bg-light border-0 p-2 w-100 rounded-2" name="" id="" placeholder="Your Name">
+                        <input type="text" class="bg-light border-0 p-3 w-100 rounded-2" name="" id=""
+                            placeholder="Your Name">
                     </div>
                     <div>
-                        <input type="email" class="bg-light border-0 mt-4 p-2 w-100 rounded-2" name="" id="" placeholder="Your Email">
+                        <input type="email" class="bg-light border-0 mt-4 p-3 w-100 rounded-2" name="" id=""
+                            placeholder="Your Email">
                     </div>
                     <div>
-                        <input type="text" class="bg-light border-0 mt-4 p-2 w-100 rounded-2" name="" id="" placeholder="subject">
+                        <input type="text" class="bg-light border-0 mt-4 p-3 w-100 rounded-2" name="" id=""
+                            placeholder="subject">
                     </div>
                     <div>
-                        <textarea class="bg-light border-0 mt-4 p-2 w-100 rounded-2" name="" id="" cols="30" rows="3" placeholder="Your Message"></textarea>
+                        <textarea class="bg-light border-0 mt-4 p-3 w-100 rounded-2" name="" id="" cols="30" rows="3"
+                            placeholder="Your Message"></textarea>
+                    </div>
+                    <div>
+                        <button class="btn btn-secondary w-100 p-3 mt-4">Send Message</button>
                     </div>
                 </form>
             </div>
